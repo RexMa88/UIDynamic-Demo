@@ -17,6 +17,8 @@
 		A3415BC91C1D41C6005F1C15 /* MCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3415BC81C1D41C6005F1C15 /* MCTableViewController.m */; };
 		A3415BCD1C1D4721005F1C15 /* MCGravityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3415BCC1C1D4721005F1C15 /* MCGravityViewController.m */; };
 		A3415BD01C1D54C9005F1C15 /* MCCollisionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3415BCF1C1D54C9005F1C15 /* MCCollisionViewController.m */; };
+		A3415BD31C1E5D7A005F1C15 /* MCAttachmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3415BD21C1E5D7A005F1C15 /* MCAttachmentViewController.m */; };
+		A3415BD61C1E7E2D005F1C15 /* MCSnapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3415BD51C1E7E2D005F1C15 /* MCSnapViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,10 @@
 		A3415BCC1C1D4721005F1C15 /* MCGravityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCGravityViewController.m; sourceTree = "<group>"; };
 		A3415BCE1C1D54C9005F1C15 /* MCCollisionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCCollisionViewController.h; sourceTree = "<group>"; };
 		A3415BCF1C1D54C9005F1C15 /* MCCollisionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCCollisionViewController.m; sourceTree = "<group>"; };
+		A3415BD11C1E5D7A005F1C15 /* MCAttachmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCAttachmentViewController.h; sourceTree = "<group>"; };
+		A3415BD21C1E5D7A005F1C15 /* MCAttachmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCAttachmentViewController.m; sourceTree = "<group>"; };
+		A3415BD41C1E7E2D005F1C15 /* MCSnapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCSnapViewController.h; sourceTree = "<group>"; };
+		A3415BD51C1E7E2D005F1C15 /* MCSnapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCSnapViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +160,10 @@
 				A3415BCC1C1D4721005F1C15 /* MCGravityViewController.m */,
 				A3415BCE1C1D54C9005F1C15 /* MCCollisionViewController.h */,
 				A3415BCF1C1D54C9005F1C15 /* MCCollisionViewController.m */,
+				A3415BD11C1E5D7A005F1C15 /* MCAttachmentViewController.h */,
+				A3415BD21C1E5D7A005F1C15 /* MCAttachmentViewController.m */,
+				A3415BD41C1E7E2D005F1C15 /* MCSnapViewController.h */,
+				A3415BD51C1E7E2D005F1C15 /* MCSnapViewController.m */,
 			);
 			name = Dynamics;
 			sourceTree = "<group>";
@@ -292,7 +302,9 @@
 			files = (
 				A3415BC91C1D41C6005F1C15 /* MCTableViewController.m in Sources */,
 				A3415BD01C1D54C9005F1C15 /* MCCollisionViewController.m in Sources */,
+				A3415BD61C1E7E2D005F1C15 /* MCSnapViewController.m in Sources */,
 				A3415BCD1C1D4721005F1C15 /* MCGravityViewController.m in Sources */,
+				A3415BD31C1E5D7A005F1C15 /* MCAttachmentViewController.m in Sources */,
 				A3415B991C1D40B2005F1C15 /* AppDelegate.m in Sources */,
 				A3415B961C1D40B2005F1C15 /* main.m in Sources */,
 			);
@@ -522,6 +534,7 @@
 				A3415BC01C1D40B3005F1C15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3415BC11C1D40B3005F1C15 /* Build configuration list for PBXNativeTarget "DynamicProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +543,7 @@
 				A3415BC31C1D40B3005F1C15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3415BC41C1D40B3005F1C15 /* Build configuration list for PBXNativeTarget "DynamicProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +552,7 @@
 				A3415BC61C1D40B3005F1C15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

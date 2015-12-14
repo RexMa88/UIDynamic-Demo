@@ -23,7 +23,7 @@ static NSString * const cellIdentifier = @"CellIdentifier";
     [super viewDidLoad];
     
     self.titles = @[@"Gravity",@"Collision",@"Attachment",@"Snap",@"Push"];
-    self.VCArray = @[@"MCGravityViewController",@"MCCollisionViewController"];
+    self.VCArray = @[@"MCGravityViewController",@"MCCollisionViewController",@"MCAttachmentViewController"];
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
