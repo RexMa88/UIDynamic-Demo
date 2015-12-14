@@ -41,11 +41,16 @@
     [self customBall];
     UIGravityBehavior * gravityBehavior = [[UIGravityBehavior alloc] initWithItems:@[self.ball]];
     [gravityBehavior setAction:^{
-        int kWidth  = [UIScreen mainScreen].bounds.size.width;
-        int kHeight = [UIScreen mainScreen].bounds.size.height;
-        CGFloat valueX = (arc4random() % kWidth);
-        CGFloat valueY = (arc4random() % kHeight) + 64;
-        UISnapBehavior * snapBehavior = [[UISnapBehavior alloc] initWithItem:self.ball snapToPoint:CGPointMake(valueX, valueY)];
+        //crazy mode
+//        int kWidth  = [UIScreen mainScreen].bounds.size.width;
+//        int kHeight = [UIScreen mainScreen].bounds.size.height;
+//        CGFloat valueX = (arc4random() % kWidth);
+//        CGFloat valueY = (arc4random() % kHeight) + 64;
+//        UISnapBehavior * snapBehavior = [[UISnapBehavior alloc] initWithItem:self.ball snapToPoint:CGPointMake(valueX, valueY)];
+        //crazy mode
+        //naive mode
+        UISnapBehavior * snapBehavior = [[UISnapBehavior alloc] initWithItem:self.ball snapToPoint:CGPointMake(300, 300)];
+        //naive mode
         [self.animator addBehavior:snapBehavior];
     }];
     
