@@ -44,7 +44,10 @@
     [self.animator addBehavior:collisionBehavior];
     //物理元素
     UIDynamicItemBehavior * itemBehavior = [[UIDynamicItemBehavior alloc] initWithItems:@[self.ballOne]];
-    itemBehavior.elasticity = 1;//弹力
+    itemBehavior.elasticity = 0.5;//弹力
+    itemBehavior.resistance = 1.0;
+    itemBehavior.allowsRotation = YES;
+//    itemBehavior.density = 20;
     [self.animator addBehavior:itemBehavior];
 }
 
